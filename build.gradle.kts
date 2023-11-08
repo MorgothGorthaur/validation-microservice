@@ -18,6 +18,7 @@ allprojects {
 	apply(plugin = "org.springframework.boot")
 	apply(plugin = "kotlin")
 	apply(plugin = "io.spring.dependency-management")
+	apply(plugin = "org.jetbrains.kotlin.plugin.spring")
 
 	dependencies {
 		implementation("org.springframework.boot:spring-boot-starter-data-redis")
